@@ -45,3 +45,34 @@ li{
 p{
     line-height:1.6;
 }
+nav{
+background:#0077cc;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px 20px;
+}
+
+section h2{
+color:#0077cc;
+}
