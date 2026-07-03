@@ -18,10 +18,12 @@ body{
 }
 
 .profile{
-    width:170px;
-    height:170px;
+    width:180px;
+    height:180px;
     border-radius:50%;
     object-fit:cover;
+    border:5px solid #0077cc;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
 }
 
 h1{
@@ -67,9 +69,14 @@ list-style:none;
 }
 
 nav a{
-color:white;
-text-decoration:none;
-font-weight:bold;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:yellow;
 }
 
 section{
@@ -110,4 +117,46 @@ span{
     border-radius:10px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
     max-width:700px;
+}
+footer{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+section{
+    animation:fadeIn 1s ease;
+}
+@media (max-width:768px){
+
+nav{
+    flex-direction:column;
+}
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+}
+
+.profile{
+    width:140px;
+    height:140px;
+}
+
+h1{
+    font-size:28px;
+}
+
 }
