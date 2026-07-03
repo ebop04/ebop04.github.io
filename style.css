@@ -76,3 +76,8 @@ padding:40px 20px;
 section h2{
 color:#0077cc;
 }
+a{
+    color:#0077cc;
+    text-decoration:underline;
+    cursor:pointer;
+}
