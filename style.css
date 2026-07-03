@@ -160,3 +160,23 @@ h1{
 }
 
 }
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode nav{
+    background:#1f1f1f;
+}
+
+.dark-mode section{
+    color:white;
+}
+
+.dark-mode footer{
+    background:#1f1f1f;
+}
+
+.dark-mode a{
+    color:#66b3ff;
+}
