@@ -180,3 +180,17 @@ h1{
 .dark-mode a{
     color:#66b3ff;
 }
+.dark-btn{
+    background:white;
+    color:#0077cc;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.dark-btn:hover{
+    background:#ddd;
+}
