@@ -120,7 +120,7 @@ span{
     color: white;
 }
 footer{
-    background:#0077cc;
+    background: linear-gradient(135deg, #ff0000, #00ff00, #0000ff);
     color:white;
     text-align:center;
     padding:20px;
