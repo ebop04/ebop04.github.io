@@ -121,12 +121,15 @@ span{
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 }
-footer{
-    background: linear-gradient(135deg, #0f172a, #0f766e, #1e3a8a);
+footer {
+    background: linear-gradient(135deg, #020617, #0f172a, #0f766e);
     color: #ffffff;
-    text-align:center;
-    padding:20px;
-    margin-top:50px;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.3);
+    }
 }
 @keyframes fadeIn{
     from{
