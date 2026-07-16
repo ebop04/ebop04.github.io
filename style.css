@@ -111,13 +111,15 @@ span{
     transform:scale(1.05);
 }
 .project {
-    background: linear-gradient(135deg, #ff0000, #00ff00, #0000ff);
+    background: linear-gradient(135deg, #0f172a, #0f766e, #1e3a8a);
     padding: 20px;
     margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     max-width: 700px;
-    color: white;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
 }
 footer{
     background: linear-gradient(135deg, #ff0000, #00ff00, #0000ff);
