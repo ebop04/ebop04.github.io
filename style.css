@@ -122,8 +122,8 @@ span{
 }
 }
 footer{
-    background: linear-gradient(135deg, #ff0000, #00ff00, #0000ff);
-    color:white;
+    background: linear-gradient(135deg, #0f172a, #0f766e, #1e3a8a);
+    color: #ffffff;
     text-align:center;
     padding:20px;
     margin-top:50px;
